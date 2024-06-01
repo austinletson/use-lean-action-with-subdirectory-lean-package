@@ -16,4 +16,4 @@ jobs:
       - uses: leanprover/lean-action@34-support-repositories-with-subdirectory-lean-packages
         with:
           test: false
-          working-directory: './subdirectory'
+          lake-package-directory: './subdirectory'
