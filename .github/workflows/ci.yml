@@ -17,3 +17,4 @@ jobs:
         with:
           test: false
           use-github-cache: false
+          working-directory: './subdirectory'
