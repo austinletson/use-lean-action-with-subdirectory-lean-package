@@ -16,5 +16,4 @@ jobs:
       - uses: leanprover/lean-action@34-support-repositories-with-subdirectory-lean-packages
         with:
           test: false
-          use-github-cache: false
           working-directory: './subdirectory'
