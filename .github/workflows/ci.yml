@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: leanprover/lean-action@34-support-repositories-with-subdirectory-lean-packages
+      - uses: leanprover/lean-action@release/v1-beta.1
         with:
           test: false
           lake-package-directory: './subdirectory'
